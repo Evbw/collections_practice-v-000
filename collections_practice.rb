@@ -29,11 +29,13 @@ def kesha_maker(strings)
 end
 
 def find_a(array)
+  alpha = []
   array.each do |start|
     if  start.start_with?('a')
-      return start
+      alpha << start
     end
   end
+  alpha
 end
 
 def sum_array(array)
