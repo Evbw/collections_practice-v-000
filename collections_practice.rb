@@ -30,9 +30,9 @@ end
 
 def find_a(array)
   array.each do |start|
-  if  start.start_with?('a')
-    return start
-  end
+    if  start.start_with?('a')
+      return start
+    end
   end
 end
 
