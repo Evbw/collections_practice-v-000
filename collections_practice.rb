@@ -29,7 +29,6 @@ def kesha_maker(strings)
 end
 
 def find_a(array)
-  alpha = []
   array.collect do |start|
     if  start.start_with?('a')
       alpha.collect << start
