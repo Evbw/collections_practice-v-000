@@ -16,7 +16,7 @@ end
 
 def swap_elements_from_to(array,index1,index2)
   
-  index_a, index_b = array.index1, array.index2
+  index_a, index_b = array[index1], array[index2]
   array[index_a], array[index_b] = array[index_b], array[index_a]
 end
 
