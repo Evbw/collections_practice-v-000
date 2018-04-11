@@ -48,6 +48,7 @@ def add_s(strings)
       element + 's'
     end
     strings
+  end
 end
 
 #def add_s(strings)
