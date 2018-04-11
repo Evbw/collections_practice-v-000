@@ -33,6 +33,7 @@ def find_a(array)
   array.collect do |start|
      start[0] =='a'
   end
+  array
 end
 
 def sum_array(array)
