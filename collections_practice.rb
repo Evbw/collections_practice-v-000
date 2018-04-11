@@ -30,7 +30,7 @@ end
 
 def find_a(array)
   array.collect do |start|
-    if start =='a')
+    if start[0] =='a'
       alpha.collect << start
     end
   end
