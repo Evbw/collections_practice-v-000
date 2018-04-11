@@ -31,11 +31,11 @@ describe 'collections practice' do
   end
   
   #Question 4.5
-  #describe '#swap_elements_from_to' do
-  #  it 'swap the first and third specified indices of an array' do
-  #    expect(swap_elements_from_to(["c", "b", "a"],0,2)).to eq(["a", "b", "c"])
-  #  end
-  #end
+  describe '#swap_elements_from_to' do
+    it 'swap the first and third specified indices of an array' do
+      expect(swap_elements_from_to(["c", "b", "a"],0,2)).to eq(["a", "b", "c"])
+    end
+  end
 
   # Question 5
   describe '#reverse_array' do
