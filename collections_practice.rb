@@ -50,11 +50,11 @@ def add_s(strings)
     strings
 end
 
-def add_s(strings)
-  strings.collect do |element|
-    if strings[1] == element
-      element
-    else
+#def add_s(strings)
+#  strings.collect do |element|
+#    if strings[1] == element
+#      element
+#    else
       element + 's'
     end
   end
