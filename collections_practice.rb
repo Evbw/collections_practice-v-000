@@ -42,9 +42,13 @@ def sum_array(array)
   array.inject(:+)
 end
 
-#def add_s(strings)
-#  strings.each_with_index.collect { |element, index| if index /= 1 do element + 's' }
-#end
+def add_s(strings)
+  strings.each_with_index.collect do |element, index|
+    if index /= "feet" 
+      element + 's'
+    end
+    strings
+end
 
 def add_s(strings)
   strings.collect do |element|
