@@ -29,8 +29,9 @@ def kesha_maker(strings)
 end
 
 def find_a(array)
-  array.each()
-  start_with?('a')
+  array.each do |start|
+  start.start_with?('a')
+  end
 end
 
 def sum_array(array)
