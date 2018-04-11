@@ -43,20 +43,11 @@ def sum_array(array)
 end
 
 def add_s(strings)
-  strings.each_with_index.collect do |element, index|
-    if element != "feet"
+  strings.collect do |element|
+    if strings[1] == element
+      element
+    else
       element + 's'
     end
-    strings
   end
 end
-
-#def add_s(strings)
-#  strings.collect do |element|
-#    if strings[1] == element
-#      element
-#    else
-#      element + 's'
-#    end
-#  end
-#end
