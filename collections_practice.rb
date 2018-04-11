@@ -55,7 +55,7 @@ end
 #    if strings[1] == element
 #      element
 #    else
-      element + 's'
-    end
-  end
-end
+#      element + 's'
+#    end
+#  end
+#end
